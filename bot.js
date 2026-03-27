@@ -8,15 +8,16 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
-  const text = `🛩️ Welcome to JORDAN AVIATOR 💸  
+  const text = `🛩️🛩️ Welcome to JORDAN AVIATOR 💸  
 
-Get the latest Aviator signals, smart strategies & real-time updates!  
+This channel is created for educational purposes only.  
+We share insights, strategies & analysis related to the Aviator game.
 
-🔥 High accuracy signals  
-📊 Easy-to-follow strategies  
-💰 Maximize your winning chances  
+📊 Learn game patterns & concepts  
+📈 Understand strategies step by step  
+🧠 Improve your decision-making skills  
 
-🚀 Play Smart • Cash Out Smart • Win Big  
+🚀 Learn Smart • Play Responsibly • Stay Informed  
 
 Tap the buttons below 👇`;
 
