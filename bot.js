@@ -8,18 +8,14 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
 
-  const text = `🛩️🛩️ Welcome to JORDAN AVIATOR 💸  
-
-This channel is created for educational purposes only.  
-We share insights, strategies & analysis related to the Aviator game.
-
-📊 Learn game patterns & concepts  
-📈 Understand strategies step by step  
-🧠 Improve your decision-making skills  
-
-🚀 Learn Smart • Play Responsibly • Stay Informed  
-
-Tap the buttons below 👇`;
+  const text = `Hey 👋
+Welcome to Aviator Smart Hub 🚀
+Yahan aapko milega:
+✔️ Live game insights
+✔️ Smart timing updates
+✔️ Strategy tips
+✔️ Safe play guidance
+👇 Start karne ke liye niche options select karo`;
 
   const options = {
     reply_markup: {
