@@ -21,7 +21,6 @@ Yahan aapko milega:
     reply_markup: {
       inline_keyboard: [
         [{ text: "📢 Join VIP Channel", url: CHANNEL_LINK }],
-        [{ text: "I Joined 👍", callback_data: "joined" }]
       ]
     }
   };
