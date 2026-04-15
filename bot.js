@@ -25,15 +25,7 @@ Yahan aapko milega:
     }
   };
 
-  bot.sendMessage(chatId, text, options);
-
-  setTimeout(() => {
-    bot.sendMessage(chatId,
-      "⚠️ Disclaimer:\nThis is a risky game.\nWe only provide signals for educational purposes.\nPlay responsibly."
-    );
-  }, 1000);
-});
-
+  
 bot.on('callback_query', (query) => {
   if (query.data === 'joined') {
     bot.sendMessage(query.message.chat.id,
